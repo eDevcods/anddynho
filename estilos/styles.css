@@ -159,7 +159,7 @@ div.sobre-anddynho{
 
 .scrollTop{
     position: fixed;
-    bottom: 60px;
+    bottom: 70px;
     right: 30px;
     padding: 10px 15px;
     background-color: #000;
@@ -168,6 +168,7 @@ div.sobre-anddynho{
     border-radius: 1px solid #fff;
     cursor: pointer;
     transition: all 0.5s ease 0s;
+    z-index: 1000;
 }
 
 .scrollTop:hover{
@@ -268,7 +269,7 @@ button:hover {
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 60px;
+    bottom: 70px;
     left: 40px;
     background-color: #25d366;
     color: #fff;
