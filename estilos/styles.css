@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background: center center no-repeat fixed url(../imagens/anddynho\ full.jpg);
+    background-size: cover;
+   
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(46, 46, 46), rgb(32, 64, 78));
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+header h1 {
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover{
+    background-color: rgb(107, 185, 253);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: .5s;
+    
+    
+}
+
+main#Home {
+    background-color: rgba(0, 0, 0, 0.521);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+main#Sobre {
+    background: center center no-repeat fixed url(../imagens/anddynho02.jpg);
+    background-size: cover;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+   
+}
+
+main#Contato {
+    background: center center no-repeat fixed url(../imagens/anddynho04.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.521);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+    width: 100vw;
+
+    
+}
+
+div.sobre-anddynho{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.404);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.568) 0px 0px 20px 8px inset;
+}
+
+
+.sobre{
+    color: black;
+    background-color: #f4f4f4b9;
+    padding: 30px;
+    text-align: center;
+    width: 60%;
+    height: 80%;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.404);
+    
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sobre > p {
+ text-align: justify;
+ text-indent: 40px;
+}
+
+
+.post {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+
+    background-color: #f4f4f456;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.514);
+}
+
+.scrollTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.scrollTop:hover{
+
+    background-color: #f7f7f7;
+    color: #000;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.swiper {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    
+  }
+
+
+  .swiper-slide {
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: flex;
+    width: 100%;
+   
+  }
+
+  
+  @media screen and (min-width: 320px) and (max-width: 667px) {
+    
+
+    header {
+        background-image: linear-gradient(to bottom, rgb(27, 27, 27), rgb(149, 213, 243));
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        position: fixed;
+        
+    }
+    .post{
+        width: 300px;
+        height: 400px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        
+    }
+
+    .swiper {
+        width: 250px;
+      }
+      #Home > .post > h2,p{
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+      }
+
+      main#Home {
+        background-color: rgba(0, 0, 0, 0.521);
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        height: 100%;
+        width: 100vw;
+    }
+
+      main#Sobre {
+      background-color: black;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100vw;
+    }
+
+    main#Contato {
+        background: center center no-repeat fixed url(../imagens/anddynho04.jpg);
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.521);
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        
+        height: 100vh;
+        width: 100vw;
+    }
+
+    div.sobre-anddynho{
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.507);
+     
+    }
+
+    .sobre{
+        color: black;
+        background-color: #f4f4f494;
+        padding: 30px;
+        text-align: center;
+        width: 95%;
+        height: 90%;
+        
+    }
+    
+    .sobre > p {
+        font-size: 10pt;
+     text-align: justify;
+     text-indent: 20px;
+    }
+      
+   
+
+}
+  
+
+  
+ 
