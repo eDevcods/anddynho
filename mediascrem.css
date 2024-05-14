@@ -29,9 +29,6 @@
         
     }
 
-    .swiper {
-        width: 250px;
-      }
       #Home > .post > h2,p{
         font-size: 15px;
         text-align: center;
@@ -60,8 +57,6 @@
     }
 
     main#Contato {
-        background: center center no-repeat fixed url(../imagens/anddynho04.jpg);
-        background-size: cover;
         background-color: rgba(0, 0, 0, 0.521);
         display: flex;
         flex-flow: row wrap;
@@ -93,6 +88,21 @@
      text-align: justify;
      text-indent: 20px;
     }
+
+    .sw{
+        display: flex;
+        align-items: center;
+        width: 270px;
+        height: 220px;
+      }
+
+      .swiper-slide img {
+        margin-top: 200px;
+        object-fit: cover;
+        border-radius: 15px;
+        width: 900px;
+      }
+
       
    
 
@@ -126,9 +136,7 @@
         
     }
 
-    .swiper {
-        width: 250px;
-      }
+    
       #Home > .post > h2,p{
         font-size: 15px;
         text-align: center;
@@ -180,6 +188,19 @@
     .contact-container {
      width: 300px;
     }
-   
+
+    .sw{
+        display: flex;
+        align-items: center;
+        width: 270px;
+        height: 220px;
+      }
+    
+      .swiper-slide img {
+        margin-top: 200px;
+        object-fit: cover;
+        border-radius: 15px;
+        width: 370px;
+      }
 
 }
