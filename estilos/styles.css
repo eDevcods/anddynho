@@ -75,7 +75,7 @@ main#Home {
 }
 
 main#Sobre {
-    background: center center no-repeat fixed url(../imagens/anddynho02.jpg);
+    background: center center no-repeat fixed url(../imagens/baixo03.jpg);
     background-size: cover;
     display: flex;
     flex-flow: row wrap;
@@ -83,12 +83,14 @@ main#Sobre {
     justify-content: center;
     height: 100vh;
     width: 100vw;
+}
 
-   
+main#Sobre > .sobre-anddynho > .sobre > h2{
+    font-family: "Now";
 }
 
 main#Contato {
-    background: center center no-repeat fixed url(../imagens/anddynho04.jpg);
+    background: center center no-repeat fixed url(../imagens/baixo03.jpg);
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.521);
     display: flex;
