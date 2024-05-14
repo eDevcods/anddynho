@@ -149,14 +149,35 @@
     </main>
 
     <main id="Contato">
-        <div>
-          
+      <div class="contact-container">
+        <h2>Contato</h2>
+        <form class="contact-form" action="cadastro.php" method="get" autocomplete="on">
 
-        </div>
+            <div class="form-group">
+                <label for="iname">Nome:</label>
+                <input type="text" id="iname" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="iemail">Email:</label>
+                <input type="email" id="iemail" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="isubject">Assunto:</label>
+                <input type="text" id="isubject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="imessage">Mensagem:</label>
+                <textarea id="imessage" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
     </main>
     
     <footer>
-        <p>&copy; 2024 Anddynho</p>
+        <p>&copy; 2024 Anddynho. Todos os direitos reservado.</p>
     </footer>
 
     <div onclick="scrollToTop()" class="scrollTop">Top</div>
