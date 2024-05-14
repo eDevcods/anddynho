@@ -4,7 +4,7 @@
     
 
     header {
-        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(12, 30, 37));
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(20, 48, 59));
         color: #fff;
         padding: 20px;
         text-align: center;
@@ -137,39 +137,16 @@
       }
 
       main#Home {
-        background: center center no-repeat fixed url(../anddynho/imagens/anddynho\ full.jpg);
-        background-size: cover;
-        background-color: rgba(0, 0, 0, 0.726);
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
         height: 100%;
         width: 100vw;
     }
 
       main#Sobre {
-        background: center center no-repeat fixed url(../anddynho/imagens/anddynho02\ 375px.jpg);
-        background-size: cover;
-      background-color: black;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: center;
         height: 100%;
         width: 100vw;
     }
 
     main#Contato {
-        background: center center no-repeat fixed url(../anddynho/imagens/anddynho04\ 375\ -\ 667.jpg);
-        background-size: cover;
-        background-color: rgba(0, 0, 0, 0.521);
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: center;
-        
         height: 100vh;
         width: 100vw;
     }
