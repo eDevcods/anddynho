@@ -27,8 +27,7 @@ header {
     padding: 20px;
     text-align: center;
     width: 100%;
-    z-index: 1000;
-    
+    z-index: 1000;  
 }
 
 header h1 {
@@ -224,9 +223,6 @@ footer {
     width: 100%;
    
   }
-
-
-
 
   .contact-container {
     background-color: #ffffffb9;
