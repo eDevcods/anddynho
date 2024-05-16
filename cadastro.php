@@ -1,1 +1,1 @@
-<p>Desculpe não foi possível enviar suas informações!</p>
+Desculpe não foi possível enviar suas informações!
