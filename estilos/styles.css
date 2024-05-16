@@ -152,7 +152,7 @@ div.sobre-anddynho{
 
 .post {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-flow: row wrap;
 
