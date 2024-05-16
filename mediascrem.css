@@ -114,9 +114,7 @@
         background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(12, 30, 37));
         color: #fff;
         padding: 20px;
-        text-align: center;
-        
-        
+        text-align: center;  
     }
 
     header h1 {
@@ -124,6 +122,24 @@
         padding: 20px;
         
     }
+
+    nav ul li {
+      display: block;
+  }
+
+  nav{
+    display: none;
+  }
+
+  #burguer{
+    background-color: rgb(31, 31, 31);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
     
     .post{
         width: 300px;

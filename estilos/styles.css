@@ -30,9 +30,14 @@ header {
     z-index: 1000;  
 }
 
+
 header h1 {
     font-family: "Now";
     padding: 20px;
+}
+
+#burguer{
+    display: none;
 }
 
 nav ul {
@@ -52,7 +57,7 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-    background-color: rgb(107, 185, 253);
+    background-color: rgb(255, 255, 255);
     color: black;
     padding: 5px;
     border-radius: 5px;

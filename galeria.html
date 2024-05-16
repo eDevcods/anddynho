@@ -22,13 +22,11 @@
         color: #fff;
         padding: 20px;
         text-align: center;
-        
-        
     }
 
     header h1 {
-        font-family: "Now";
-        padding: 20px;
+    font-family: "Now";
+    padding: 20px;
         
     }
 }
@@ -42,15 +40,11 @@ header {
     text-align: center;
 }
  header h1 {
-    font-family: "Now";
-    padding: 20px;
-    
+font-family: "Now";
+padding: 10px;
 }   
-    
 }
 
-
-        
 *{
     padding: 0;
     margin: 0;
@@ -68,32 +62,46 @@ body{
 main{
     background-color: #00000063;
     margin: 30px;
-
-
 }
-header{
+
+header {
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(12, 30, 37));
     color: #fff;
     padding: 20px;
     text-align: center;
     width: 100%;
     z-index: 1000;  
-
-
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
 }
-header > h1{
+
+header h1 {
     font-family: "Now";
-    margin-bottom: 10px;
-    color: #ffffff;
+    padding: 20px;
 }
-header > a {
+
+nav ul {
+    list-style-type: none;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
     color: #fff;
     text-decoration: none;
+    
+}
+
+nav ul li a:hover{
+    background-color: rgb(107, 185, 253);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: .5s;
+    
+    
 }
 .gallery-container{
     display: flex;
@@ -156,8 +164,15 @@ footer {
 </head>
 <body>
     <header>
-        <h1>Galeria</h1>
-        <a href="anddynho.html">Home</a>
+        <h1>Anddynho</h1>
+        <nav>
+            <ul>
+                <li><a href="anddynho.html">HOME</a></li>
+                <!--<li><a href="anddynho.html">Sobre</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="anddynho.html">Contato</a></li>-->
+            </ul>
+        </nav>
     </header>
 
     <main>
